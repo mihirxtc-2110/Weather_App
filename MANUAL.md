@@ -4,11 +4,11 @@
 ## There are only 2 predefined conditions. if you enter those the only it works right way...
 
 ## 1
-## rainy
+## rainy || Rainy
 ### give suggestion on rainy weather
 
 ## 2
-## sunny
+## sunny || Sunny
 ### give suggestion upon sunny weather
 
 ### As of now there's only these "2" conditions specified.

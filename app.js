@@ -4,9 +4,9 @@ getWeather = () => {
 
     let suggestion = document.getElementById("suggestion");
 
-    if (weather == "rainy") { 
+    if (weather == "rainy" || weather == "Rainy" ) { 
         suggestion.innerHTML = "<h2>It looks like weather is " + weather + ", Please carry your umbrealla ☔ with you.</h2>"
-    } else if (weather == "sunny") {
+    } else if (weather == "sunny" || weather == "Sunny" ) {
         suggestion.innerHTML = "<h2>It looks like weather is " + weather + ", Please wear your sunglasees 😎.</h2>"
     } else {
         suggestion.innerHTML = "<h2>Please enter a valid weather condition, you entered " + weather +"</h2>";
